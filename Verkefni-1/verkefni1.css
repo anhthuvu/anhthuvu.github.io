@@ -1,0 +1,39 @@
+body{
+	font-family: 'Trebuchet MS', sans-serif;
+	border: 1px solid blue; /*3 skipanir í enni */
+	width: 50em;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1em;
+	
+}
+h1 {
+	color: blue;
+}
+h2 {
+	color: brown;
+}
+.Lennon {
+	color:#00f;
+}
+.Lennon strong {
+	color: red;
+}
+ul li {
+	color: green;
+}
+em {
+	color:#00f;
+}
+p strong {
+	color: red;
+}
+a:link {
+	color: red;
+}
+a:visted {
+	color: green;
+}
+a:hover, a:active {
+	color: #00f;
+}
