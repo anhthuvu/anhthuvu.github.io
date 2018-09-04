@@ -1,2 +1,2 @@
 # anhthuvu.github.io
-[Verkefni 1](verkefni1)
+[Verkefni 1](verkefni-1)
