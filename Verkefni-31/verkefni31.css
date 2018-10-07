@@ -1,0 +1,63 @@
+ * {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+ 	margin: 0 auto;
+ 	line-height: 1.4;
+}
+header {
+	background-color: khaki;
+}
+header h1 {
+	text-align: center;
+	font-family: Times, serif
+}
+.col-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.col-2{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+section {
+	padding: 1em;
+	border: 1px solid grey;
+}
+.serif {
+	font-family: Times, serif
+}
+.sans-serif {
+	font-family: "Gil Sans", sans-serif
+}
+.monotype {
+	font-family: Courier, monospace
+}
+.palatino {
+	font-family: Palatino, serif
+}
+.fyrirsogn {
+	font-family: Impact, sans-serif;
+	background-color:lightgreen;
+}
+.comic {
+	font-family: "Comic Sans MS", sans-serif
+}
+.arialBlack {
+	font-family: "Arial Black", sans-serif
+}
+.rauður {
+	color:red; 
+}
+.fyrirsogn h1 {
+	font-family: Impact, sans-serif;
+	font-size: 5em;
+	text-align: center;
+}
+h6 {
+	font-size: 0.6 em;
+	letter-spacing: 0.03 em;
+	line-height: 1.5;
+	font-weight: 
+}

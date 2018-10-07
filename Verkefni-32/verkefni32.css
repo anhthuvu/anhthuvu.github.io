@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+}
+body {
+	max-width: 60em;
+	margin: 0 auto;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.5;
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-template-areas: 
+	   "header"
+	   "topnav"
+	   "main"
+	   "footer";
+}
+header {
+	grid-area: header;
+}
+.topnav {
+	grid-area: topnav;
+}
+main {
+	grid-area: main;
+}
+footer {
+	grid-area: footer;
+	text-align: center;
+	color: white;
+	background-color: yellow;
+}
+/* inn i .content */
+.midja {
+	grid-area: midja;
+}
+.vinstri {
+	grid-area: vinstri;
+}
+.hægri {
+	grid-area: hægri;
+}
+.topmenu {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 15px;
+	margin: 0;
+}
+.content {
+	display: grid;
+	grid-gap:0;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-areas: "vinstri midja hægri"; 
+}
+p, h4 {
+	padding: 0.5em 1em;
+}
+h4 {
+	margin-bottom: 0;
+}
+p {
+	margin-top: 0;
+}
+header {
+	text-align:center;
+	background-color: darkkhaki;
+}
+
+.topmenu a.virkur {
+	background-color: yellow;
+	color: black;
+}
+
+.topmenu {
+	background-color: yellow;
+}
+.topmenu a {
+	background-color: yellow;
+	color: brown; 
+}
+.topmenu a:visited {
+	color: white;
+}
+.topmenu a:hover, .topmenu a:active {
+	background-color: yellow;
+	color: brown; 
+}
+.hægri, .vinstri {
+	background-color: khaki;
+}
+.midja {
+	background-color: lightyellow;
+}
