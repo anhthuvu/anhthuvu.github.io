@@ -1,0 +1,248 @@
+*, *:before, *:after {
+  box-sizing: border-box; 
+}
+.topnav {
+grid-area: topnav; 
+}
+header {
+grid-area: header;
+}
+.content {
+grid-area: content; 
+}
+footer {
+grid-area: footer;
+}
+body {
+	background-color: black;
+	color: white;
+	font: 400 1em/1.5 "Open Sans", sans-serif;
+}
+.topnav {
+	display: flex;
+	justify-content: center;
+}
+.topnav a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 0 1em; 
+	text-transform: uppercase;
+}
+header h1 {
+	color: white;
+	font-weight: 300;
+	font-size: 3em;
+	text-transform: uppercase;
+	margin: 2em 0 1em 0;
+	text-align: center;
+}
+header h3 {
+	color: white;
+	text-align: center;
+}
+.content {
+	background-image: linear-gradient(to bottom, #f52900, #ff0000);
+	padding: 2em; 
+}
+.content h3 {
+	color: white;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.content li {
+	color: black;
+}
+.col-3 {
+	display: grid;
+	justify-items: center;
+}
+p {
+	color: black;
+	text-decoration: none;
+}
+h1 {
+	font-weight: 300;
+	color: black;
+}
+h2 {
+	color: black;
+	text-align: center;
+}
+.copy {
+	color: #fff;
+	text-align: center;
+}
+footer {
+	color: #fff;
+}
+footer a {
+	color: #fff;
+}
+footer a:visited {
+	color: wheat;
+}
+footer li {
+	list-style: none;
+	padding-bottom: .25em;
+}
+.innermenu {
+	background-color: #3333ff;
+	display: flex;
+}
+.innermenu a {
+	color: white;
+	text-decoration: none;
+	padding: .4em 1.4677em;
+	border-right: 1px solid white;
+}
+.innermenu a:last-child {
+	border: none;
+}
+.innermenu a:hover, .innermenu a:active {
+	color: #f52900;
+	background-color: #ff0000;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+figure {
+	margin:0;
+}
+iframe {
+	padding-top: 2em;
+}
+.myndir {
+	display: grid;
+	justify-items: center;
+}
+.logo {
+	display: grid;
+	justify-items: center; 
+	padding-top: 2em;
+}
+.hljod {
+	display: grid;
+	justify-items: center; 
+	padding-top: 2em;
+}
+@media screen and (min-width: 30em) {
+
+	body {  
+		margin: 0 auto;
+	}
+	.content li {
+		list-style: none;
+	}
+}
+
+/*  ========================================
+Viðmið - breakpoints 37.5em = 600px + 
+========================================*/
+
+@media screen and (min-width: 37.5em) {
+
+	
+	body {  
+		margin: 0 auto;
+	  }
+  
+}
+/* ========================================
+Viðmið - breakpoints 48em = 760px +
+======================================== */
+
+@media screen and (min-width: 48em) {  
+	body {  
+		margin: 0 auto;
+	}
+	.col-2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 2em;
+		max-width: 60em;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+  /* ========================================
+  Viðmið - breakpoints 60em = 960px +
+  ======================================== */
+
+
+@media screen and (min-width: 60em) { 
+	body {  
+	    margin: 0 auto;
+	}
+	.myndabox {
+		display: grid;
+		grid-template-columns: repeat(3,90%)
+	}
+	.col-3 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap: 1.5em;
+		justify-content: space-around;
+		list-style-type: none;
+		max-width: 60em;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.col-4 {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr)
+		max-width: 60em;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.topbutt {
+		background-color: black;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 50%;
+		color: white;
+		font-size: 2.5em;
+		display: block;
+		position: fixed;
+		bottom: 2em;
+		right: 2em;
+		width: 1.5em;
+		padding: 0 .45em;
+    }
+    .topbutt:active, .topbutt:hover {
+		background-color: #3333ff;
+		color: white;
+    }
+    header {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+    }
+    .topnav {
+		margin-top: 2em;
+		margin-bottom: 1.5em;
+		margin-left: 2em;
+    }
+    header h3 {
+    	text-align: center;
+		
+		margin-top: 1.5em;
+	}
+	.listi li {
+		list-style:disc;
+    }
+    .snooker {
+		padding-top: 3.85em;
+	}
+}
+
+
+/* ========================================
+Viðmið - breakpoints 80em = 1280px +
+======================================== */
+
+@media screen and (min-width: 80em) { 
+	body { 
+		max-width: 77em;
+		margin: 0 auto;
+	}
