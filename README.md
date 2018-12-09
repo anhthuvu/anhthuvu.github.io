@@ -3,3 +3,4 @@
 [Verkefni 3.1](Verkefni-31)
 [Verkefni 3.2 og 3.3](Verkefni-32)
 [Verkefni 4](verkefni-4)
+[Verkefni 5 og 6](Verkefni-5)
